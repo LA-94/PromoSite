@@ -1,0 +1,130 @@
+body {
+	font-family: TimesNewRoman, sans-serif;
+	padding: 0;
+	margin: 0;
+	background: #7a7dff;
+
+}
+.clearfix:after {
+content:'';
+display: table;
+width: 100%;
+clear: both;
+}
+header {
+	background-color: black;
+	height: 100vh;
+
+}
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+.logo {
+	float: left;
+}
+
+nav {
+	float: right;
+	margin-top: 50px;
+}
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+.menu a {
+	color: #ff0000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+.titles h1 {
+	text-align: center;
+	font-size: 75px;
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
+}
+.titles1 {
+	margin-top: 180px;
+	font-size: 40px;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+}
+.button {
+	background: #fed136;
+	color: black;
+	border-radius: 4px;
+	display: block;
+	width: 240px;
+	padding: 20px;
+	margin: 0 auto;
+	text-decoration: none;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 50px;
+}
+.title {
+	padding-top: 40px;
+}
+.title h2 {
+	font-weight: bold;
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	color: black;
+	margin: 0px;
+}
+
+.about {
+margin-top: 50px; 
+
+}
+.about_item {
+	width: 270px;
+	float: left;
+	text-align: center;
+
+
+}
+
+.about_item p {
+	font-size: 14px;
+	line-height: 1.55em;
+}
+
+.about_item:last-child {
+	float: right;
+}
+
+.about_item:nth-child(2) {
+	margin-left: 58px;
+}
+
+section {
+	padding-bottom: 100px;
+}
+
+footer {
+	background: #fbc086;
+	height: 100vh;
+
+	text-align: center;
+	
+}
+
+.contacts a {
+	text-decoration: none;
+	color: black;
+}
+
